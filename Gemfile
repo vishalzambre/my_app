@@ -8,8 +8,14 @@ gem 'rails', '3.2.11'
 # gem 'mysql2'
 
 # gem 'pg'
-gem 'sqlite3'
+# gem 'sqlite3'
+group :development do
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+end
 
+group :production do
+  gem 'pg'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -26,6 +32,7 @@ end
 gem 'will_paginate'
 gem 'jquery-rails'
 gem 'devise'
+gem 'simple_form'
 
 # gem 'devise-twitter'
 # gem 'twitter', '~> 1.0.0'
