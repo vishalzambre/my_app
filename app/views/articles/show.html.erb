@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+<article>
+	<h4><%= @article.title %><h4>
+    <%= render :partial => 'shared/social_likes' %>
+	<hr/>
+	<p>&nbsp;&nbsp;&nbsp;  &nbsp;<%= @article.body %></p>
+
+	<%= link_to 'Edit', edit_article_path(@article) %> |
+	<%= link_to 'Articles', articles_path %>
+<div class = "comments">
+	<div class = "comment-table">
+		<h2 align = "left">Comments</h2>
+  		<%= render :partial => 'comments/index', :locals => {:comments => @article.comments} %>
+	</div>
+		<%= render :partial => 'shared/tweets' %>
+</div>
+<div id="comment" class ="comment-ajax">
+</div>
+</article>

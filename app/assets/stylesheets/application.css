@@ -1,0 +1,166 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree 
+ *= require dataTables/src/demo_table_jui
+ *= require jquery.ui.core
+ *= require jquery.ui.theme
+
+ */
+
+
+.twitter-tweets{
+ 
+    float: right;
+    
+    width: 30%;
+}
+.comment-table{
+margin: auto 0 0;
+float: left;
+    width: 69%;
+}
+.sign-in{
+ border-style: double;
+    margin: 187px 425px;
+    /*width: 368px;
+    height: 192px;*/
+}
+.sign-in .form-inputs input{
+width: 181px;
+}
+.sign-in .form-inputs {margin: 14px 90px 10px 101px;}
+.sign-in .form-actions{margin: 14px 90px 10px 101px;}
+.sign-in .form-actions a{
+	background-image: url("/assets/signin_twitter.png");
+	cursor: default;
+    float: left;
+    height: 24px;
+    text-indent: -999999px;
+    width: 150px;
+    margin-right: 5px;
+	
+}
+.sign-in .form-actions button {margin: -10px -1px 1px -2px;}
+/*.nav-bar a{
+	background-image: url("/assets/images.png");
+    cursor: default;
+    float: right;
+    height: 24px;
+    margin-right: 12px;
+    margin-top: -9px;
+    text-indent: -999999px;
+    width: 79px;
+    height: 33px;
+}*/
+/*body {
+    background-color: #F6F4F0;
+}*/
+.nav-bar {
+	 height: 48px;
+    padding-right: 16px;
+    float: right;
+    padding-top: 66px;
+}
+.comment-ajax{
+    width: 0px;
+}
+.field input{
+     width: 290px;
+}
+.form-container {
+    margin: 0 0 0 50px;
+}
+/*.outer{
+    background-color: #F6F4F0;
+    height: 100%
+    margin: 0 0 auto;
+}*/
+.container{
+    /*background-color: #F6F4F0;*/
+    height: 100%;
+    margin: 0 auto;
+    width: 90%;
+    }
+.header{
+    /*background-image: url("/assets/header.png");*/
+    /*background-image: -moz-linear-gradient(center top , #EE432E 0%, #C63929 50%, #B51700 50%, #891100 100%);*/
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(10.0, #FFFFFF), color-stop(90, #E1EFBB));
+ background-image: -moz-linear-gradient(center bottom , #FFFFFF 10%, #E1EFBB 90%);
+padding: 2px;
+
+    height: 99px;
+}
+
+.nav-bar a{
+    background-color: #EE432E;
+    background-image: -moz-linear-gradient(center top , #EE432E 0%, #C63929 50%, #B51700 50%, #891100 100%);
+    border: 1px solid #951100;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 1px rgba(255, 115, 100, 0.4) inset, 0 1px 3px #333333;
+    color: white;
+    font: bold 20px/1 "helvetica neue",helvetica,arial,sans-serif;
+    text-align: center;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.8);
+    width: 150px;
+}
+.tweet-img {
+    background: url('/assets/icon_twitter_02.png') no-repeat;
+    height: 18px;
+    width: 22px;
+    float: left;
+    margin-top: 16px;
+    margin-right: 20px;
+}
+
+.tweet table { 
+    color: #959595;
+}
+.tweet p {
+    
+
+}
+.tweet p span{
+    font-weight: normal;
+}
+.tweet a {
+    color: #62AAB1;
+    border-bottom: 1px dotted #62AAB1;
+}
+.tweet table tr td{
+    vertical-align: top;
+}
+.horizontal-hr {
+    border-bottom: 1px solid #E4E4E4;
+    height: 1px;
+    margin-right: 60px;
+    margin-top: 15px;
+}
+.tweet-fb{
+    float: right;
+    margin-top: -49px;
+}
+
+.footer{ background-color: #000000;
+    height: 20px;
+    /*width: 90%;*/
+    bottom: 0;
+    /*margin-top: 50px;*/
+    /*position: fixed;*/
+    opacity:0.6;
+    filter:alpha(opacity=60);
+
+}
+.links {
+    float: right;
+    
+}
+a.hover{color:#f00;}  

@@ -1,0 +1,7 @@
+<div class="form-container">
+  <%= form_for ([@article, @article.comments.build]), :url => article_comments_path(@article) do |f| %>
+
+    <%= render :partial => 'form', :locals => {:f => f}%>
+
+  <% end %>
+</div>

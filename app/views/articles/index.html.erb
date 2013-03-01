@@ -1,0 +1,26 @@
+
+<!-- <h1 align = "center">Listing Articles</h1> -->
+<table class="display data-table" >
+  <thead>
+    <th>Title</th>
+    <th>Body</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </thead>
+<% @articles.each do |article| %>
+<tbody>
+  <tr>
+    <td><%= article.title %></td>
+    <td><%= article.body %></td>
+    <td><%= link_to 'Show', article %></td>
+    <td><%= link_to 'Edit', edit_article_path(article) %></td>
+    <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+</tbody>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Article', new_article_path %>

@@ -1,2 +1,2 @@
-my_app
-======
+article_comments_app
+====================
