@@ -8,7 +8,7 @@ gem 'rails', '3.2.11'
 # gem 'mysql2'
 
 gem 'pg', '~> 0.14.1'
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.7'
 
 
 # gem 'activerecord-postgresql-adapter'
