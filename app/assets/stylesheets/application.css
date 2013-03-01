@@ -39,7 +39,7 @@ width: 181px;
 }
 .sign-in .form-inputs {margin: 14px 90px 10px 101px;}
 .sign-in .form-actions{margin: 14px 90px 10px 101px;}
-.sign-in .form-actions a{
+.sign-in .form-actions .myButton{
 	background-image: url("/assets/signin_twitter.png");
 	cursor: default;
     float: left;

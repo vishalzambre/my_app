@@ -8,7 +8,7 @@ gem 'rails', '3.2.11'
 # gem 'mysql2'
 
 # gem 'pg'
-gem "sqlite3", "~> 1.3.7"
+gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -26,7 +26,7 @@ end
 gem 'will_paginate'
 gem 'jquery-rails'
 gem 'devise'
-gem 'simple_form'
+
 # gem 'devise-twitter'
 # gem 'twitter', '~> 1.0.0'
 gem 'omniauth' # for twitter authentication
